@@ -19,7 +19,7 @@ api = Api(app)
 
 class HelloWorld(Resource):
     def get(self):
-        return {'hello': 'world'}
+        return {'hello': 'ini sedang belajar flask'}
 
 api.add_resource(HelloWorld, '/')
 
@@ -43,7 +43,7 @@ CMD ["app.py"]
 ```
 5. Struktur foldernya seperti ini.
 ```
-hello_docker_flask
+najib-flask
 │
 └───requirements.txt
 │
@@ -53,13 +53,6 @@ hello_docker_flask
 ```
 6. Menjalakan `docker build` untuk membuat image 
 ```
-$ docker build -t najibun/najib-flask:v1
-"docker build" requires exactly 1 argument.
-See 'docker build --help'.
-
-Usage:  docker build [OPTIONS] PATH | URL | -
-
-Build an image from a Dockerfile
 $ docker build -t najibun/najib-flask:v1 .
 Sending build context to Docker daemon  4.096kB
 Step 1/6 : FROM python:2.7
@@ -151,6 +144,11 @@ dd5242c2dc8a: Pushed
 v1: digest: sha256:400802a6961982452ecdef3d4cf2f59f00fa12064ff563d5c042f64e467bfab6 size: 2639
 $
 ```
+3. Hasilnya di lihat di docker hub
+**[https://hub.docker.com/r/najibun/najib-flask]
+(https://hub.docker.com/r/najibun/najib-flask)**
+
+
 ### Membuat Deployment menggunakan image python-flask**
 1. Membuat deployment
 ```
