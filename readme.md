@@ -113,7 +113,7 @@ Removing intermediate container c3b93bdb476b
 Successfully built 4d1dd1b457ca
 Successfully tagged najibun/najib-flask:v1
 ```
-### Upload ke hub.docker
+## Upload ke hub.docker.com
 1. Login ke hub.docker.com dahulu
 ```
 $ docker login
@@ -148,8 +148,8 @@ $
 **https://hub.docker.com/r/najibun/najib-flask**
 
 
-### Membuat Deployment menggunakan image python-flask**
-1. Membuat deployment
+## Membuat Deployment menggunakan image yang kita buat tadi
+1. Membuat Deployment
 ```
 $ kubectl create deployment najib-flask --image=najibun/najib-flask:v1
 deployment.apps/najib-flask created
