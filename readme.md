@@ -144,9 +144,8 @@ dd5242c2dc8a: Pushed
 v1: digest: sha256:400802a6961982452ecdef3d4cf2f59f00fa12064ff563d5c042f64e467bfab6 size: 2639
 $
 ```
-3. Hasilnya di lihat di docker hub
-**[https://hub.docker.com/r/najibun/najib-flask]
-(https://hub.docker.com/r/najibun/najib-flask)**
+3. Hasilnya di lihat di docker hub   
+**https://hub.docker.com/r/najibun/najib-flask**
 
 
 ### Membuat Deployment menggunakan image python-flask**
