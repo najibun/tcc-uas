@@ -148,9 +148,8 @@ $
 3. Hasilnya bisa dilihat di URL berikut   
 **https://hub.docker.com/r/najibun/najib-flask**
 
-
-## Membuat Deployment menggunakan image yang kita buat tadi
-1. Membuat Deployment
+## Memulai deploy Kubernetes 
+1. Membuat Deployment menggunakan image yang kita buat tadi
 ```
 $ kubectl create deployment najib-flask --image=najibun/najib-flask:v1
 deployment.apps/najib-flask created
