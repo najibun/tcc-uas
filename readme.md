@@ -51,7 +51,8 @@ najib-flask
 │
 └───app.py
 ```
-6. Menjalakan `docker build` untuk membuat image 
+6. Menjalakan `docker build` untuk membuat image
+**Format nama image** *userdockerhub/namaimage:versi*
 ```
 $ docker build -t najibun/najib-flask:v1 .
 Sending build context to Docker daemon  4.096kB
@@ -126,7 +127,7 @@ https://docs.docker.com/engine/reference/commandline/login/#credentials-store
 
 Login Succeeded
 ```
-2. Upload image yang kita buat tadi.
+2. Upload image yang kita buat tadi. 
 ```
 $ docker push najibun/najib-flask:v1
 The push refers to repository [docker.io/najibun/najib-flask]
@@ -144,7 +145,7 @@ dd5242c2dc8a: Pushed
 v1: digest: sha256:400802a6961982452ecdef3d4cf2f59f00fa12064ff563d5c042f64e467bfab6 size: 2639
 $
 ```
-3. Hasilnya di lihat di docker hub   
+3. Hasilnya bisa dilihat di URL berikut   
 **https://hub.docker.com/r/najibun/najib-flask**
 
 
