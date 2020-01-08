@@ -52,7 +52,7 @@ najib-flask
 └───app.py
 ```
 6. Menjalakan `docker build` untuk membuat image     
-**Format nama image** *userdockerhub/namaimage:versi*
+> **Format nama image** *userdockerhub/namaimage:versi*
 ```
 $ docker build -t najibun/najib-flask:v1 .
 Sending build context to Docker daemon  4.096kB
